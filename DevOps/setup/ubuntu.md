@@ -7,13 +7,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-vim .zshrc
-source .zshrc
+vim ~/.zshrc
 ```
 - theme
 ```shell
-p10k
-
+ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 plugins
 ```
@@ -24,6 +22,9 @@ plugins=(
   sudo         # Double-press ESC to add `sudo`
   docker       # Docker completions
 )
+```
+```shell
+source .zshrc
 ```
 
 ### uv
