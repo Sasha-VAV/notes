@@ -17,4 +17,7 @@
 - huggingface integration + transformers integration + pretty model page + gguf
 - multi-gpu: data/model/pipeline parallelism
 - mixed precision: amp
-
+- torch builtin metrics
+- numba
+- airflow
+- clearml

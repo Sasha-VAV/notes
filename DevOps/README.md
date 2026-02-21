@@ -11,8 +11,12 @@
   - git rebase, read merging vs rebasing
   - git tags
 - secrets vals holder
+- custom types
+- pre-commit
 - fire
 - kafka
 - kubernetes
 - prometheus + grafana
 - latex
+- Docker:
+  - stages (FROM ... as stage)
